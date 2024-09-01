@@ -104,6 +104,7 @@
         }
         .feed-form {
             margin: 20px auto 0;
+            align-items: center;
             input {
                 margin-bottom: 12px;
                 width: 280px;
@@ -118,6 +119,30 @@
                 width: 70%;
                 height: 36px;
                 font-size: 14px;
+            }
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 100%;
+            img {
+                margin: 0 auto;
+                width: 90%;
+            }
+        }
+        ul {
+            padding: 0;
+            margin: 0 auto;
+            width: 120px;
+            list-style-position: inside;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            li {
+                font-size: 1.5rem;
+                button {
+                    display: none;
+                }
             }
         }
     }
